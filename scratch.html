@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>My Travel Hobby</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #1e3d59;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #1e3d59;
+        }
+
+        img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 350px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #1e3d59;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<a class="navlink" href="index.html">← Back to Home</a>
+<a href="app.html">🎮 Play My Number Guessing Game</a>
+<header>
+    <h1>My Hobby: Traveling 🌍</h1>
+    <p>Exploring the world one country at a time</p>
+</header>
+
+<section>
+    <a href="#video">Jump to Travel Video</a>
+    <h2>Why I Love Traveling</h2>
+    <p>
+        Traveling is one of my favorite hobbies because it allows me to experience different cultures,
+        try new foods, and see amazing places. Every trip teaches me something new and gives me memories
+        that last forever.
+    </p>
+</section>
+
+<section>
+    <h2>Places I’ve Visited</h2>
+
+    <!-- Ordered list with nested unordered list -->
+    <ol>
+        <li>Spain
+            <ul>
+                <li>Segovia (Aqueduct)</li>
+                <li>Madrid</li>
+            </ul>
+        </li>
+        <li>France
+            <ul>
+                <li>Paris (Eiffel Tower)</li>
+                <li>Night city views</li>
+            </ul>
+        </li>
+        <li>Italy
+            <ul>
+                <li>Rome (Trevi Fountain)</li>
+                <li>Historic architecture</li>
+            </ul>
+        </li>
+    </ol>
+</section>
+
+<section>
+    <h2>My Travel Photos</h2>
+
+    <div class="gallery">
+        <img src="image/France.jpeg" alt="Eiffel Tower at night">
+        <img src="image/Italy.jpeg" alt="Trevi Fountain in Rome">
+        <img src="image/Spain.jpeg" alt="Segovia Aqueduct in Spain">
+    </div>
+
+</section>
+
+<section>
+    <h2 id="video">Travel Inspiration Video</h2>
+
+    <iframe src="https://www.youtube.com/embed/0xhzwDXfLds" allowfullscreen></iframe>
+
+    <p>
+        This video shows the beauty of Europe and inspires me to keep traveling and exploring new places.
+    </p>
+</section>
+
+
+<section>
+    <h2>Travel Trends: Global Tourism</h2>
+    <p>
+        This interactive chart shows international tourism trends over time,
+        including travel patterns that reflect increasing visits to Europe.
+    </p>
+
+    <div class='tableauPlaceholder' id='viz168'>
+        <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+        <object class='tableauViz' width='800' height='500'>
+            <param name='host_url' value='https://public.tableau.com/' />
+            <param name='embed_code_version' value='3' />
+            <param name='name' value='TourismDashboard/Overview' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+        </object>
+    </div>
+</section>
+<footer>
+    <p>© 2026 My Travel Hobby Page</p>
+</footer>
+
+</body>
+</html>
